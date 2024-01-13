@@ -1,0 +1,4 @@
+content papt       chrome/content/
+locale  papt en-US chrome/locale/en-US/
+skin    papt skin  chrome/skin/
+overlay chrome://browser/content/browser.xul    chrome://papt/content/overlay.xul

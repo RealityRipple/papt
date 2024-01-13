@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://papt/locale/overlay.dtd" >
+<overlay id="paptOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ <script type="application/x-javascript" src="chrome://papt/content/overlay.js" />
+ <popup id="contentAreaContextMenu">
+  <menuitem id="context-pasteplain" class="menuitem-iconic" label="&papt.label;" accesskey="&papt.accesskey;" oncommand="goDoCommand('cmd_pasteNoFormatting');" insertafter="context-paste" />
+ </popup>
+</overlay>
