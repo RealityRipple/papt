@@ -9,9 +9,22 @@ var papt =
  },
  popup: function()
  {
+  const m = document.getElementById('context-pasteplain');
+  const p = document.getElementById('context-paste');
+  if (!m)
+   return;
+  if (!p)
+  {
+   m.hidden = true;
+   return;
+  }
+  if (p.hidden)
+  {
+   m.hidden = true;
+   return;
+  }
   const controller = document.commandDispatcher.getControllerForCommand('cmd_pasteNoFormatting');
   const enabled = controller && controller.isCommandEnabled('cmd_pasteNoFormatting');
-  const m = document.getElementById('context-pasteplain');
   if (m)
    m.hidden = !enabled;
  }
