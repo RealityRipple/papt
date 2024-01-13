@@ -3,7 +3,7 @@
  <Description about="urn:mozilla:install-manifest">
   <em:name>papt</em:name>
   <em:id>{8CC29E8B-4BC4-5944-8F75-311FDFB4C0DF}</em:id>
-  <em:version>32.0</em:version>
+  <em:version>32.1</em:version>
   <em:type>2</em:type>
   <em:targetApplication>
    <Description>
